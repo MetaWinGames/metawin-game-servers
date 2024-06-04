@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "declaration": true,
+    "outDir": "lib",
+    "rootDir": "."
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
